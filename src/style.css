@@ -93,6 +93,10 @@ body {
     padding: 40px 0 40px 50px;
 }
 
+.lista-projetos {
+    margin: 0 5% 0 5%;
+}
+
 .lista-projetos li {
     background: white;
     display: inline-block;
