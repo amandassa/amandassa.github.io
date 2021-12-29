@@ -33,7 +33,7 @@ body {
 }
 
 .nav li {
-    margin-left: 30px;
+    margin-left: 36px;
     display: inline;
 }
 
@@ -44,7 +44,88 @@ body {
     font-weight: 400;
 }
 
-.nav a:hover {
+.ancoras:hover {
     color: brown;
     font-style: italic;
+}
+
+/* Corpo */
+.sobre {
+    background: #9bc1ff;
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 140px;
+}
+
+.subtitulos {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.textos {
+    font-size: 16px;
+}
+
+.skills {
+    background: #66a1ff;
+    padding: 40px 0 40px 50px;
+}
+
+.lista-skills {
+    padding-top: 15px;
+}
+
+.lista-skills li {
+    padding-bottom: 10px;
+}
+
+.projetos {
+    background: #418aff;
+    padding: 40px 0 40px 50px;
+}
+
+.lista-projetos li {
+    background: white;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    vertical-align: top;
+    margin: 2% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.lista-projetos li:hover {
+    background-color: #418aff;
+}
+
+.lista-projetos a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.imagens-projetos {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.titulos-projetos {
+    font-size: large;
+}
+
+.descricao-projetos {
+    margin-top: 10px;
+}
+
+.copyright {
+    background-color: #0062ff;
+    height: 60px;
+    text-align: center;
+    padding-top: 50px;
 }

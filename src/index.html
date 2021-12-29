@@ -3,12 +3,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Amanda Silva</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="../img/avatar.jpeg">
     </head>
+
     <body>
         <header class="cabecalho">
             <img src="..\img\avatar.jpeg" class="avatar">
@@ -16,12 +18,68 @@
                 <h1 class="titulo">Amanda Silva Santos</h1>
                 <nav class="nav">
                     <ul>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Projetos</a></li>
+                        <li><a href="" class="ancoras">Sobre</a></li>
+                        <li><a href="" class="ancoras">Skills</a></li>
+                        <li><a href="" class="ancoras">Projetos</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+
+        <main>
+            <div class="sobre">
+                <h2 class="subtitulos">Sobre</h2>
+                <p class="texto-sobre">
+                    Estudante de engenharia de computação, 21 anos, Feira de Santana-Bahia.
+                </p>
+            </div>
+    
+            <div class="skills">
+                <h3 class="subtitulos">Skills</h3>
+                <p class="textos">Tecnologias que tenho alguma experiência:</p>
+                <ul class="lista-skills">
+                    <li><i class="fab fa-python"></i>   Python</li>
+                    <li><i class="fab fa-php"></i>  PHP</li>
+                    <li><i class="fab fa-java"></i> Java</li>
+                    <li><i class="fab fa-js-square"></i>    JavaScript</li>
+                </ul>
+            </div>
+    
+            <div class="projetos">
+                <h4 class="subtitulos">Projetos</h4>
+                <p class="textos">
+                    Acompanhe meus projetos!
+                </p>
+                <ul class="lista-projetos">
+                    <li>
+                        <img src="../img/buson.png" class="imagens-projetos">
+                        <h5 class="titulos-projetos"><a class="ancoras" href="https://github.com/amandassa/BusOn">BusOn</a></h5>
+                        <p class="descricao-projetos">
+                            Plataforma de compra, vendas e gerenciamento de passagens de ônibus com Laravel
+                        </p>
+                    </li>
+                    <li>
+                        <img src="../img/pongbolim.png" class="imagens-projetos">
+                        <h5 class="titulos-projetos"><a class="ancoras" href="https://editor.p5js.org/amandassa/full/EOHq1iTQf">
+                            PongBolim</a></h5>
+                        <p class="descricao-projetos">
+                            Mistura do clássico Pong com o tradicional Totó ou Pebolim em JavaScript
+                        </p>
+                    </li>
+                    <li>
+                        <img src="../img/python.png" class="imagens-projetos">
+                        <h5 class="titulos-projetos"><a class="ancoras" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsme.goiania.go.gov.br%2Fconexaoescola%2Fensino_fundamental%2Fpedra-papel-tesoura-ou-jokenpo%2F&psig=AOvVaw3gK_TODZ1vNPozjXEv09Gb&ust=1640896622309000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODUmrTuifUCFQAAAAAdAAAAABAD">
+                            Jokempo</a></h5>
+                        <p class="descricao-projetos">
+                            Pedra-papel-e-tesoura de linha de comando com POO em Python
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p class="copyright">&copy; Amanda Silva Santos, 2021</p>
+        </footer>
     </body>
 </html>
