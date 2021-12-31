@@ -109,10 +109,11 @@ body {
     box-sizing: border-box;
     border: 2px solid white;
     border-radius: 10px;
+    transition: 400ms;
 }
 
 .lista-projetos li:hover {
-    background-color: #418aff;
+    transform: scale(1.1);
 }
 
 .lista-projetos a {
