@@ -12,48 +12,52 @@
     </head>
 
     <body>
-        <header class="cabecalho">
+        <aside class="cabecalho">
             <img src="..\img\avatar.jpeg" class="avatar">
             <div class="texto">
                 <h1 class="titulo">Amanda Silva Santos</h1>
                 <nav class="nav">
                     <ul>
-                        <li><a href="" class="ancoras">Sobre</a></li>
-                        <li><a href="" class="ancoras">Skills</a></li>
-                        <li><a href="" class="ancoras">Projetos</a></li>
+                        <li><a href="#" class="ancoras" data-nav-section="sobre">Sobre</a></li>
+                        <li><a href="#" class="ancoras" data-nav-section="skills">Skills</a></li>
+                        <li><a href="#" class="ancoras" data-nav-section="projetos">Projetos</a></li>
                     </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <main class="main">
+            <section class="sobre" data-section="sobre">
+                <h2 class="subtitulos">Sobre</h2>
+                <p class="texto-sobre">
+                    Estudante de engenharia de computação, 21 anos, Feira de Santana-Bahia.
+                </p>
+                <nav>
                     <ul class="sociais">
                         <li><a href="https://www.linkedin.com/in/amandassa/" class="ancoras">
-                            <i class="fab fa-linkedin"></i>
-                        </a></li>
+                            <i class="fab fa-linkedin"></i></a></li>
                         <li><a href="https://github.com/amandassa" class="ancoras">
                             <i class="fab fa-github-square"></i>
                         </a></li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-
-        <main>
-            <div class="sobre">
-                <h2 class="subtitulos">Sobre</h2>
-                <p class="texto-sobre">
-                    Estudante de engenharia de computação, 21 anos, Feira de Santana-Bahia.
-                </p>
-            </div>
+            </section>
     
-            <div class="skills">
+            <section class="skills" data-section="skills">
                 <h3 class="subtitulos">Skills</h3>
                 <p class="textos">Tecnologias que tenho alguma experiência:</p>
                 <ul class="lista-skills">
-                    <li><i class="fab fa-python"></i>   Python</li>
-                    <li><i class="fab fa-php"></i>  PHP</li>
-                    <li><i class="fab fa-java"></i> Java</li>
-                    <li><i class="fab fa-js-square"></i>    JavaScript</li>
+                    <li><i class="fab fa-python"></i></li>
+                    <li><i class="fab fa-php"></i></li>
+                    <li><i class="fab fa-java"></i></li>
+                    <li><i class="fab fa-js-square"></i></li>
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3"></i></li>
+                    <li><i class="fab fa-node"></i></li>
                 </ul>
-            </div>
+            </section>
     
-            <div class="projetos">
+            <section class="projetos" data-section="projetos">
                 <h4 class="subtitulos">Projetos</h4>
                 <p class="textos">
                     Acompanhe meus projetos!
@@ -83,11 +87,10 @@
                         </p>
                     </li>
                 </ul>
-            </div>
+            </section>
+            <footer>
+                <p class="copyright">&copy; Amanda Silva Santos, 2021</p>
+            </footer>
         </main>
-
     </body>
-    <footer>
-        <p class="copyright">&copy; Amanda Silva Santos, 2021</p>
-    </footer>
 </html>
