@@ -1,0 +1,54 @@
+aside {
+    position: relative;
+}
+.cabecalho {
+    position: fixed;
+    display: block;
+    height: 100%;
+    width: 200px;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    float: left;
+    z-index: 1;
+}
+
+.avatar {
+    height: 140px;
+    border-radius: 100px;
+}
+
+.texto {
+    padding-top: 2em;
+}
+
+.titulo {
+    font-size: 26px;
+    font-style: bolder;
+    margin: 0 1em;
+}
+
+.nav {
+    padding-top: 1em;
+}
+
+.nav li {
+    padding-top: 1em;
+    font-size: 18px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: lowercase;
+}
+
+.nav a:hover {
+    font-style: italic;
+}
+
+.main {
+    position: absolute;
+    left: 200px;
+}

@@ -7,20 +7,21 @@ aside {
     padding-bottom: 1px;
     float: left;
     width: 200px;
-    position: fixed;
+    position: relative;
     z-index: 1001;
     height: 100%;
-    background: #b6d2ff;
+    background: #002c72;
     display: block;
 }
 
 .cabecalho {
     text-align: center;
+    position: fixed;
 }
 
 .avatar {
     height: 100px;
-    border: 5px solid black;
+    border: 5px solid white;
     border-radius: 100px;
 }
 
@@ -28,6 +29,7 @@ aside {
     top: 90px;
     right: 10%;
     padding: 2em 2em;
+    color: white;
 }
 
 .titulo {
@@ -45,7 +47,7 @@ aside {
 }
 
 .nav a {
-    color: black;
+    color: white;
     text-transform: lowercase;
     text-decoration: none;
     font-weight: 400;
@@ -56,12 +58,14 @@ aside {
     color: black;
 }
 .ancoras:hover {
-    color: brown;
+    color: #818181;
     font-style: italic;
 }
 
 .main {
-    float: right;
+    position: absolute;
+    left: 200px;
+    
 }
 
 /* Corpo */
@@ -160,8 +164,16 @@ aside {
     margin-top: 10px;
 }
 
+.contato {
+    background: #0053c0;
+    height: 300px;
+    padding: 40px 0 40px 50px;
+}
+
+
 .copyright {
-    background-color: #0062ff;
+    background-color: #002c72;
+    color: white;
     height: 60px;
     text-align: center;
     padding-top: 50px;
