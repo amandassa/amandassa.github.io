@@ -53,7 +53,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-gradient: linear-gradient(180deg, rgb(188, 209, 255), rgb(0, 44, 114));
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -81,7 +81,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-image: var(--bs-gradient);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -103,7 +103,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #343a40;
+  color: black;
 }
 
 h1, .h1 {
@@ -11280,7 +11280,7 @@ textarea.form-control-lg {
 }
 body {
   padding-top: 3.375rem;
-  color: #6c757d;
+  color: rgb(39, 44, 48);
 }
 
 @media (min-width: 992px) {
@@ -11330,9 +11330,6 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.2rem;
   text-transform: lowercase;
-}
-#sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
 }
 
 @media (min-width: 992px) {
@@ -11397,7 +11394,7 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
-  color: #002c72;
+  color: var(--bs-body-color-rgb);
 }
 
 section.resume-section {
@@ -11425,7 +11422,7 @@ section.resume-section .resume-section-content {
   height: 300px;
   vertical-align: top;
   margin: 2% 1.5%;
-  padding: 30px 20px;
+  padding: 1em 2em 2em;
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 10px;
@@ -11461,4 +11458,11 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.copyright {
+    color: white;
+    height: 60px;
+    text-align: center;
+    padding: 0 0 3em;
 }
